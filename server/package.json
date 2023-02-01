@@ -1,0 +1,23 @@
+{
+  "name": "pdf-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alicloud/ocr-api20210707": "^1.1.6",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
+    "typescript": "^4.7.3"
+  }
+}
